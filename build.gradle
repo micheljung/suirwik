@@ -1,6 +1,10 @@
 apply plugin: "kotlin2js"
 apply plugin: "com.moowork.node"
 
+plugins {
+  id("maven-publish")
+}
+
 version '0.0.4-SNAPSHOT'
 
 buildscript {
@@ -58,5 +62,23 @@ compileKotlin2Js {
     sourceMap = true
     sourceMapEmbedSources = "always"
     moduleKind = "commonjs"
+  }
+}
+
+publishing {
+  repositories {
+    maven {
+      name = "GitHubPackages"
+      url = uri("https://maven.pkg.github.com/micheljung/suiwrik")
+      credentials {
+        username = project.findProperty("gpr.user") ?: System.getenv("USERNAME")
+        password = project.findProperty("gpr.key") ?: System.getenv("TOKEN")
+      }
+    }
+  }
+  publications {
+    gpr(MavenPublication) {
+      from(components.java)
+    }
   }
 }
