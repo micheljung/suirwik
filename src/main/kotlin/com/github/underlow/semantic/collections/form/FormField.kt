@@ -10,18 +10,18 @@ import react.RProps
 import react.ReactElement
 
 external interface FormFieldProps : RProps {
-    var `as`: Any?
-    var children: react.ReactElement?
-    var className: String?
-    var content: ReactElement?
-    var control: Any?
-    var disabled: Boolean?
-    var error: Boolean?
-    var inline: Boolean?
-    var label: SemanticShorthandItem<HtmlLabelProps>?
-    var required: Any?
-    var type: String?
-    var width: SemanticWIDTHS?
+  var `as`: Any?
+  var children: react.ReactElement?
+  var className: String?
+  var content: ReactElement?
+  var control: Any?
+  var disabled: Boolean?
+  var error: Boolean?
+  var inline: Boolean?
+  var label: SemanticShorthandItem<HtmlLabelProps>?
+  var required: Any?
+  var type: String?
+  var width: SemanticWIDTHS?
 }
 
 @JsName("default")

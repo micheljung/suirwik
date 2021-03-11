@@ -5,9 +5,9 @@ package com.github.underlow.semantic.collections.table
 import react.RClass
 
 external interface TableHeaderCellProps : TableCellProps {
-    override var `as`: Any?
-    override var className: String?
-    var sorted: String? // "ascending" | "descending"
+  override var `as`: Any?
+  override var className: String?
+  var sorted: String? // "ascending" | "descending"
 }
 
 @JsName("default")

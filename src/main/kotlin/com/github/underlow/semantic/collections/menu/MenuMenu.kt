@@ -7,11 +7,11 @@ import react.RProps
 import react.ReactElement
 
 external interface MenuMenuProps : RProps {
-    var `as`: Any?
-    var children: ReactElement?
-    var className: String?
-    var content: ReactElement? //SemanticShorthandContent?
-    var position: String?
+  var `as`: Any?
+  var children: ReactElement?
+  var className: String?
+  var content: ReactElement? //SemanticShorthandContent?
+  var position: String?
 }
 
 external interface MenuMenuComponent : RClass<MenuMenuProps>

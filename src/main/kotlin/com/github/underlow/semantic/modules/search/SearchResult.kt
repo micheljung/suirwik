@@ -8,17 +8,17 @@ import react.RProps
 import react.ReactElement
 
 external interface SearchResultProps : RProps {
-    var `as`: Any?
-    var active: Boolean?
-    var className: String?
-    var content: ReactElement?
-    var description: String?
-    var id: dynamic /* String | Number */
-    var image: String?
-    var onClick: ((event: Event, data: SearchResultProps) -> Unit)?
-    var price: String?
-    var renderer: ((props: SearchResultProps) -> Array<ReactElement>)?
-    var title: String?
+  var `as`: Any?
+  var active: Boolean?
+  var className: String?
+  var content: ReactElement?
+  var description: String?
+  var id: dynamic /* String | Number */
+  var image: String?
+  var onClick: ((event: Event, data: SearchResultProps) -> Unit)?
+  var price: String?
+  var renderer: ((props: SearchResultProps) -> Array<ReactElement>)?
+  var title: String?
 }
 
 @JsName("default")

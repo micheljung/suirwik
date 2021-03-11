@@ -7,9 +7,9 @@ import react.RProps
 import react.ReactElement
 
 external interface TableBodyProps : RProps {
-    var `as`: Any?
-    var children: ReactElement?
-    var className: String?
+  var `as`: Any?
+  var children: ReactElement?
+  var className: String?
 }
 
 @JsName("default")

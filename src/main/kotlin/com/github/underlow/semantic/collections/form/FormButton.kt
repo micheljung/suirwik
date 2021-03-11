@@ -9,13 +9,13 @@ import react.RClass
 import react.ReactElement
 
 external interface FormButtonProps : FormFieldProps, ButtonProps {
-    override var disabled: Boolean?
-    override var className: String?
-    override var children: ReactElement?
+  override var disabled: Boolean?
+  override var className: String?
+  override var children: ReactElement?
 
-    override var `as`: Any?
-    override var control: Any?
-    override var label: SemanticShorthandItem<HtmlLabelProps>?
+  override var `as`: Any?
+  override var control: Any?
+  override var label: SemanticShorthandItem<HtmlLabelProps>?
 }
 
 @JsName("default")

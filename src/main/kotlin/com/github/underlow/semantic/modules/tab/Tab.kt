@@ -10,20 +10,20 @@ import react.RProps
 import react.ReactElement
 
 external interface TabPanesProps {
-    var content: SemanticShorthandItem<TabPaneProps>?
-    var menuItem: Any?
-    var render: (() -> ReactElement)?
+  var content: SemanticShorthandItem<TabPaneProps>?
+  var menuItem: Any?
+  var render: (() -> ReactElement)?
 }
 
 external interface TabProps : RProps {
-    var `as`: Any?
-    var defaultActiveIndex: dynamic /* String | Number */
-    var activeIndex: dynamic /* String | Number */
-    var menu: Any?
-    var grid: Any?
-    var onTabChange: ((event: Event, data: TabProps) -> Unit)?
-    var panes: Array<TabPanesProps>?
-    var renderActiveOnly: Boolean?
+  var `as`: Any?
+  var defaultActiveIndex: dynamic /* String | Number */
+  var activeIndex: dynamic /* String | Number */
+  var menu: Any?
+  var grid: Any?
+  var onTabChange: ((event: Event, data: TabProps) -> Unit)?
+  var panes: Array<TabPanesProps>?
+  var renderActiveOnly: Boolean?
 }
 
 external interface TabComponent : RClass<TabProps>

@@ -14,21 +14,22 @@ import react.RProps
 import react.ReactElement
 
 external interface DropdownItemProps : RProps {
-    var `as`: Any?
-    var active: Boolean?
-    var children: ReactElement?
-    var className: String?
-    var content: SemanticShorthandContent?
-    var description: SemanticShorthandItem<HtmlSpanProps>?
-    var disabled: Boolean?
-    //  var flag: SemanticShorthandItem<FlagProps>?
-    var icon: SemanticShorthandItem<IconProps>?
-    var image: SemanticShorthandItem<ImageProps>?
-    var label: SemanticShorthandItem<LabelProps>?
-    var onClick: ((event: Event, data: DropdownItemProps) -> Unit)?
-    var selected: Boolean?
-    var text: SemanticShorthandContent?
-    var value: dynamic /* String | Number | Boolean */
+  var `as`: Any?
+  var active: Boolean?
+  var children: ReactElement?
+  var className: String?
+  var content: SemanticShorthandContent?
+  var description: SemanticShorthandItem<HtmlSpanProps>?
+  var disabled: Boolean?
+
+  //  var flag: SemanticShorthandItem<FlagProps>?
+  var icon: SemanticShorthandItem<IconProps>?
+  var image: SemanticShorthandItem<ImageProps>?
+  var label: SemanticShorthandItem<LabelProps>?
+  var onClick: ((event: Event, data: DropdownItemProps) -> Unit)?
+  var selected: Boolean?
+  var text: SemanticShorthandContent?
+  var value: dynamic /* String | Number | Boolean */
 }
 
 @JsName("default")

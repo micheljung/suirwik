@@ -8,11 +8,11 @@ import react.RProps
 import react.ReactElement
 
 external interface IconGroupProps : RProps {
-    var `as`: Any?
-    var children: ReactElement?
-    var className: String?
-    var content: ReactElement?
-    var size: IconSizeProp?
+  var `as`: Any?
+  var children: ReactElement?
+  var className: String?
+  var content: ReactElement?
+  var size: IconSizeProp?
 }
 
 @JsName("default")

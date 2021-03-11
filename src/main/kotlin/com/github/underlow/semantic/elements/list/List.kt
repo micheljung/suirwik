@@ -9,25 +9,25 @@ import react.RProps
 import react.ReactElement
 
 external interface ListProps : RProps {
-    var `as`: Any?
-    var animated: Boolean?
-    var bulleted: Boolean?
-    var celled: Boolean?
-    var children: ReactElement?
-    var className: String?
-    var content: SemanticShorthandContent?
-    var divided: Boolean?
-    var floated: SemanticFLOATS?
-    var horizontal: Boolean?
-    var inverted: Boolean?
-    var items: SemanticShorthandCollection<ListItemProps>?
-    var link: Boolean?
-    var onItemClick: ((event: Event, data: ListItemProps) -> Unit)?
-    var ordered: Boolean?
-    var relaxed: dynamic /* Boolean | String /* "very" */ */
-    var selection: Boolean?
-    var size: SemanticSIZES?
-    var verticalAlign: SemanticVERTICALALIGNMENTS?
+  var `as`: Any?
+  var animated: Boolean?
+  var bulleted: Boolean?
+  var celled: Boolean?
+  var children: ReactElement?
+  var className: String?
+  var content: SemanticShorthandContent?
+  var divided: Boolean?
+  var floated: SemanticFLOATS?
+  var horizontal: Boolean?
+  var inverted: Boolean?
+  var items: SemanticShorthandCollection<ListItemProps>?
+  var link: Boolean?
+  var onItemClick: ((event: Event, data: ListItemProps) -> Unit)?
+  var ordered: Boolean?
+  var relaxed: dynamic /* Boolean | String /* "very" */ */
+  var selection: Boolean?
+  var size: SemanticSIZES?
+  var verticalAlign: SemanticVERTICALALIGNMENTS?
 }
 
 external interface ListComponent : RClass<ListProps>

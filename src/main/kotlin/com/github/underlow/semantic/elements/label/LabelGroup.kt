@@ -10,14 +10,14 @@ import react.RProps
 import react.ReactElement
 
 external interface LabelGroupProps : RProps {
-    var `as`: Any?
-    var children: ReactElement?
-    var circular: Boolean?
-    var className: String?
-    var color: SemanticCOLORS?
-    var content: SemanticShorthandContent?
-    var size: SemanticSIZES?
-    var tag: Boolean?
+  var `as`: Any?
+  var children: ReactElement?
+  var circular: Boolean?
+  var className: String?
+  var color: SemanticCOLORS?
+  var content: SemanticShorthandContent?
+  var size: SemanticSIZES?
+  var tag: Boolean?
 }
 
 @JsName("default")

@@ -36,27 +36,27 @@ typealias SegmentSizeProp = String // 'mini' | 'tiny' | 'small' | 'large' | 'big
  */
 @Suppress("EnumEntryName")
 enum class SemanticColor {
-    red, orange, yellow, olive, green, teal, blue, violet, purple, pink, brown, grey, black
+  red, orange, yellow, olive, green, teal, blue, violet, purple, pink, brown, grey, black
 }
 
 @Suppress("EnumEntryName")
 enum class SemanticSizes {
-    mini, tiny, small, medium, large, big, huge, massive
+  mini, tiny, small, medium, large, big, huge, massive
 }
 
 @Suppress("EnumEntryName")
 enum class SemanticIconSize {
-    mini, tiny, small, large, big, huge, massive
+  mini, tiny, small, large, big, huge, massive
 }
 
 @Suppress("EnumEntryName")
 enum class SemanticSegmentSize {
-    mini, tiny, small, large, big, huge, massive
+  mini, tiny, small, large, big, huge, massive
 }
 
 @Suppress("UNCHECKED_CAST_TO_EXTERNAL_INTERFACE")
 fun buildTab(block: TabPanesProps.() -> Unit): TabPanesProps {
-    val tbp = js("{}") as TabPanesProps
-    tbp.block()
-    return tbp
+  val tbp = js("{}") as TabPanesProps
+  tbp.block()
+  return tbp
 }

@@ -8,9 +8,9 @@ import com.github.underlow.semantic.elements.label.LabelProps
 import react.RClass
 
 external interface FormInputProps : FormFieldProps, InputProps {
-    override var `as`: Any?
-    override var control: Any?
-    override var label: SemanticShorthandItem<LabelProps>?
+  override var `as`: Any?
+  override var control: Any?
+  override var label: SemanticShorthandItem<LabelProps>?
 }
 
 @JsName("default")

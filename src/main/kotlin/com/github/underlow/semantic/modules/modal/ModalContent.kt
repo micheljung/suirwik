@@ -8,12 +8,12 @@ import react.RProps
 import react.ReactElement
 
 external interface ModalContentProps : RProps {
-    var `as`: Any?
-    var children: ReactElement?
-    var className: String?
-    var content: SemanticShorthandContent?
-    var image: Boolean?
-    var scrolling: Boolean?
+  var `as`: Any?
+  var children: ReactElement?
+  var className: String?
+  var content: SemanticShorthandContent?
+  var image: Boolean?
+  var scrolling: Boolean?
 }
 
 @JsName("default")

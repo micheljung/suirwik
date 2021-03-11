@@ -7,8 +7,8 @@ import com.github.underlow.semantic.elements.icon.IconProps
 import react.RClass
 
 external interface ListIconProps : IconProps {
-    override var className: String?
-    var verticalAlign: SemanticVERTICALALIGNMENTS?
+  override var className: String?
+  var verticalAlign: SemanticVERTICALALIGNMENTS?
 }
 
 @JsName("default")

@@ -10,24 +10,24 @@ import react.RProps
 import react.ReactElement
 
 external interface GridProps : RProps {
-    var `as`: Any?
-    var celled: Boolean
-    var centered: Boolean?
-    var children: ReactElement?
-    var className: String?
-    var columns: SemanticWIDTHS?
-    var container: Boolean?
-    var divided: Boolean?
-    var doubling: Boolean?
-    var inverted: Boolean?
-    var padded: Boolean?
-    var relaxed: Boolean?
-    var reversed: String?
-    var stackable: Boolean?
-    var stretched: Boolean?
-    var textAlign: SemanticTEXTALIGNMENTS?
-    var verticalAlign: SemanticVERTICALALIGNMENTS?
-    var style: String
+  var `as`: Any?
+  var celled: Boolean
+  var centered: Boolean?
+  var children: ReactElement?
+  var className: String?
+  var columns: SemanticWIDTHS?
+  var container: Boolean?
+  var divided: Boolean?
+  var doubling: Boolean?
+  var inverted: Boolean?
+  var padded: Boolean?
+  var relaxed: Boolean?
+  var reversed: String?
+  var stackable: Boolean?
+  var stretched: Boolean?
+  var textAlign: SemanticTEXTALIGNMENTS?
+  var verticalAlign: SemanticVERTICALALIGNMENTS?
+  var style: String
 }
 
 external interface GridComponent : RClass<GridProps>

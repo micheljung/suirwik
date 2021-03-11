@@ -8,10 +8,10 @@ import react.RProps
 import react.ReactElement
 
 external interface ListListProps : RProps {
-    var `as`: Any?
-    var children: ReactElement?
-    var className: String?
-    var content: SemanticShorthandContent?
+  var `as`: Any?
+  var children: ReactElement?
+  var className: String?
+  var content: SemanticShorthandContent?
 }
 
 @JsName("default")

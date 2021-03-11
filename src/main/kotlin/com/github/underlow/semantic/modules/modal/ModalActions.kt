@@ -10,12 +10,12 @@ import react.RProps
 import react.ReactElement
 
 external interface ModalActionsProps : RProps {
-    var `as`: Any?
-    var actions: ReactElement? //SemanticShorthandCollection<ButtonProps>?
-    var children: ReactElement?
-    var className: String?
-    var content: SemanticShorthandContent?
-    var onActionClick: ((event: Event, data: ButtonProps) -> Unit)?
+  var `as`: Any?
+  var actions: ReactElement? //SemanticShorthandCollection<ButtonProps>?
+  var children: ReactElement?
+  var className: String?
+  var content: SemanticShorthandContent?
+  var onActionClick: ((event: Event, data: ButtonProps) -> Unit)?
 }
 
 @JsName("default")

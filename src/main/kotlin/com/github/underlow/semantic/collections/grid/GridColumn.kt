@@ -8,22 +8,22 @@ import react.RProps
 import react.ReactElement
 
 external interface GridColumnProps : RProps {
-    var `as`: Any?
-    var children: ReactElement?
-    var className: String?
-    var color: SemanticCOLORS?
-    var computer: SemanticWIDTHS?
-    var floated: SemanticFLOATS?
-    var largeScreen: SemanticWIDTHS?
-    var mobile: SemanticWIDTHS?
-    var only: String?
-    var stretched: Boolean?
-    var tablet: SemanticWIDTHS?
-    var textAlign: SemanticTEXTALIGNMENTS?
-    var verticalAlign: SemanticVERTICALALIGNMENTS?
-    var widescreen: SemanticWIDTHS?
-    var width: SemanticWIDTHS?
-    var style: String
+  var `as`: Any?
+  var children: ReactElement?
+  var className: String?
+  var color: SemanticCOLORS?
+  var computer: SemanticWIDTHS?
+  var floated: SemanticFLOATS?
+  var largeScreen: SemanticWIDTHS?
+  var mobile: SemanticWIDTHS?
+  var only: String?
+  var stretched: Boolean?
+  var tablet: SemanticWIDTHS?
+  var textAlign: SemanticTEXTALIGNMENTS?
+  var verticalAlign: SemanticVERTICALALIGNMENTS?
+  var widescreen: SemanticWIDTHS?
+  var width: SemanticWIDTHS?
+  var style: String
 }
 
 

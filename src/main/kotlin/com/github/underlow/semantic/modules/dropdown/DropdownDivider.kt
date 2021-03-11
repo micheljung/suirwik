@@ -6,8 +6,8 @@ import react.RClass
 import react.RProps
 
 external interface DropdownDividerProps : RProps {
-    var `as`: Any?
-    var className: String?
+  var `as`: Any?
+  var className: String?
 }
 
 @JsName("default")

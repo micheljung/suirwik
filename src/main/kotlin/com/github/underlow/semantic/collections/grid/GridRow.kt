@@ -9,16 +9,16 @@ import react.RProps
 import react.ReactElement
 
 external interface GridRowProps : RProps {
-    var `as`: Any?
-    var centered: Boolean?
-    var children: ReactElement?
-    var className: String?
-    var color: SemanticCOLORS?
-    var columns: SemanticWIDTHS?
-    var divided: Boolean?
-    var only: String? // typealias GridOnlyProp = String //| 'computer' | 'largeScreen' | 'mobile' | 'tablet mobile' | 'tablet' | 'widescreen';
-    var reversed: String? //export type GridReversedProp = string | 'computer' | 'computer vertically' | 'mobile' | 'mobile vertically' | 'tablet' | 'tablet vertically';
-    var stretched: Boolean?
+  var `as`: Any?
+  var centered: Boolean?
+  var children: ReactElement?
+  var className: String?
+  var color: SemanticCOLORS?
+  var columns: SemanticWIDTHS?
+  var divided: Boolean?
+  var only: String? // typealias GridOnlyProp = String //| 'computer' | 'largeScreen' | 'mobile' | 'tablet mobile' | 'tablet' | 'widescreen';
+  var reversed: String? //export type GridReversedProp = string | 'computer' | 'computer vertically' | 'mobile' | 'mobile vertically' | 'tablet' | 'tablet vertically';
+  var stretched: Boolean?
 //    var textAlign: SemanticTEXTALIGNMENTS?
 //    var verticalAlign: SemanticVERTICALALIGNMENTS?
 }

@@ -7,14 +7,14 @@ import react.RProps
 import react.ReactElement
 
 external interface SearchCategoryProps : RProps {
-    var `as`: Any?
-    var active: Boolean?
-    var children: ReactElement?
-    var className: String?
-    var content: ReactElement?
-    var name: String?
-    var renderer: ((props: SearchCategoryProps) -> ReactElement)?
-    var results: Array<dynamic>?
+  var `as`: Any?
+  var active: Boolean?
+  var children: ReactElement?
+  var className: String?
+  var content: ReactElement?
+  var name: String?
+  var renderer: ((props: SearchCategoryProps) -> ReactElement)?
+  var results: Array<dynamic>?
 }
 
 @JsName("default")

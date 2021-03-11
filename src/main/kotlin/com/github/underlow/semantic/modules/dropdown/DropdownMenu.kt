@@ -8,13 +8,13 @@ import react.RProps
 import react.ReactElement
 
 external interface DropdownMenuProps : RProps {
-    var `as`: Any?
-    var children: ReactElement?
-    var className: String?
-    var content: SemanticShorthandContent?
-    var direction: dynamic /* String /* "left" */ | String /* "right" */ */
-    var open: Boolean?
-    var scrolling: Boolean?
+  var `as`: Any?
+  var children: ReactElement?
+  var className: String?
+  var content: SemanticShorthandContent?
+  var direction: dynamic /* String /* "left" */ | String /* "right" */ */
+  var open: Boolean?
+  var scrolling: Boolean?
 }
 
 @JsName("default")

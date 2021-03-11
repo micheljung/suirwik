@@ -9,14 +9,14 @@ import react.RClass
 import react.ReactElement
 
 external interface FormCheckboxProps : FormFieldProps, CheckboxProps {
-    override var children: ReactElement?
-    override var className: String?
-    override var disabled: Boolean?
+  override var children: ReactElement?
+  override var className: String?
+  override var disabled: Boolean?
 
-    override var `as`: Any?
-    override var control: Any?
-    override var type: String? /* "checkbox" |"radio" */
-    override var label: SemanticShorthandItem<HtmlLabelProps>?
+  override var `as`: Any?
+  override var control: Any?
+  override var type: String? /* "checkbox" |"radio" */
+  override var label: SemanticShorthandItem<HtmlLabelProps>?
 
 }
 

@@ -9,12 +9,12 @@ import react.RProps
 import react.ReactElement
 
 external interface TabPaneProps : RProps {
-    var `as`: Any?
-    var active: Boolean?
-    var children: ReactElement?
-    var className: String?
-    var content: SemanticShorthandContent?
-    var loading: Boolean?
+  var `as`: Any?
+  var active: Boolean?
+  var children: ReactElement?
+  var className: String?
+  var content: SemanticShorthandContent?
+  var loading: Boolean?
 }
 
 @JsName("default")

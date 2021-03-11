@@ -7,10 +7,10 @@ import react.RProps
 import react.ReactElement
 
 external interface ItemExtraProps : RProps {
-    var `as`: Any?
-    var children: ReactElement?
-    var className: String?
-    var content: ReactElement? // SemanticShorthandContent?
+  var `as`: Any?
+  var children: ReactElement?
+  var className: String?
+  var content: ReactElement? // SemanticShorthandContent?
 }
 
 @JsName("default")

@@ -7,13 +7,13 @@ import react.RClass
 import react.RProps
 
 external interface DropdownSearchInputProps : RProps {
-    var `as`: Any?
-    var autoComplete: String?
-    var className: String?
-    var inputRef: ((c: HTMLInputElement) -> Unit)?
-    var tabIndex: dynamic /* String | Number */
-    var type: String?
-    var value: dynamic /* String | Number */
+  var `as`: Any?
+  var autoComplete: String?
+  var className: String?
+  var inputRef: ((c: HTMLInputElement) -> Unit)?
+  var tabIndex: dynamic /* String | Number */
+  var type: String?
+  var value: dynamic /* String | Number */
 }
 
 @JsName("default")

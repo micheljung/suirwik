@@ -11,14 +11,14 @@ import react.RProps
 import react.ReactElement
 
 external interface ListContentProps : RProps {
-    var `as`: Any?
-    var children: ReactElement?
-    var className: String?
-    var content: SemanticShorthandContent?
-    var description: SemanticShorthandItem<ListDescriptionProps>?
-    var floated: SemanticFLOATS?
-    var header: SemanticShorthandItem<ListHeaderProps>?
-    var verticalAlign: SemanticVERTICALALIGNMENTS?
+  var `as`: Any?
+  var children: ReactElement?
+  var className: String?
+  var content: SemanticShorthandContent?
+  var description: SemanticShorthandItem<ListDescriptionProps>?
+  var floated: SemanticFLOATS?
+  var header: SemanticShorthandItem<ListHeaderProps>?
+  var verticalAlign: SemanticVERTICALALIGNMENTS?
 }
 
 @JsName("default")

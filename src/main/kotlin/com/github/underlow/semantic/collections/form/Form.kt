@@ -8,20 +8,20 @@ import react.RProps
 import react.ReactElement
 
 external interface FormProps : RProps {
-    var `as`: Any?
-    var action: String?
-    var children: ReactElement?  // ???
-    var className: String?
-    var error: Boolean?
-    var inverted: Boolean?
-    var loading: Boolean?
-    var onSubmit: ((event: Event, data: FormProps) -> Unit)?
-    var reply: Boolean?
-    var size: String?
-    var success: Boolean?
-    var unstackable: Boolean?
-    var warning: Boolean?
-    var widths: String?
+  var `as`: Any?
+  var action: String?
+  var children: ReactElement?  // ???
+  var className: String?
+  var error: Boolean?
+  var inverted: Boolean?
+  var loading: Boolean?
+  var onSubmit: ((event: Event, data: FormProps) -> Unit)?
+  var reply: Boolean?
+  var size: String?
+  var success: Boolean?
+  var unstackable: Boolean?
+  var warning: Boolean?
+  var widths: String?
 }
 
 external interface FormComponent : RClass<FormProps>

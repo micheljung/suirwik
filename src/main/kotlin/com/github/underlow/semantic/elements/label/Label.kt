@@ -12,29 +12,30 @@ import react.RProps
 import react.ReactElement
 
 external interface LabelProps : RProps {
-    var `as`: Any?
-    var active: Boolean?
-    var attached: String? /* "top" | "bottom" | "top right" | "top left" | "bottom left" | "bottom right" */
-    var basic: Boolean?
-    var children: ReactElement?
-    var circular: Boolean?
-    var className: String?
-    var color: SemanticCOLORS?
-    var content: ReactElement?
-    var corner: dynamic /* Boolean | String /* "left" */ | String /* "right" */ */
-    //        var detail: SemanticShorthandItem<LabelDetailProps>?
-    var empty: Any?
-    var floating: Boolean?
-    var horizontal: Boolean?
-    var icon: SemanticShorthandItem<IconProps>?
-    var image: Any?
-    var onClick: ((event: Event, data: LabelProps) -> Unit)?
-    var onRemove: ((event: Event, data: LabelProps) -> Unit)?
-    var pointing: dynamic /* Boolean | String /* "left" */ | String /* "right" */ | String /* "above" */ | String /* "below" */ */
-    var removeIcon: SemanticShorthandItem<IconProps>?
-    var ribbon: dynamic /* Boolean | String /* "right" */ */
-    var size: SemanticSIZES?
-    var tag: Boolean?
+  var `as`: Any?
+  var active: Boolean?
+  var attached: String? /* "top" | "bottom" | "top right" | "top left" | "bottom left" | "bottom right" */
+  var basic: Boolean?
+  var children: ReactElement?
+  var circular: Boolean?
+  var className: String?
+  var color: SemanticCOLORS?
+  var content: ReactElement?
+  var corner: dynamic /* Boolean | String /* "left" */ | String /* "right" */ */
+
+  //        var detail: SemanticShorthandItem<LabelDetailProps>?
+  var empty: Any?
+  var floating: Boolean?
+  var horizontal: Boolean?
+  var icon: SemanticShorthandItem<IconProps>?
+  var image: Any?
+  var onClick: ((event: Event, data: LabelProps) -> Unit)?
+  var onRemove: ((event: Event, data: LabelProps) -> Unit)?
+  var pointing: dynamic /* Boolean | String /* "left" */ | String /* "right" */ | String /* "above" */ | String /* "below" */ */
+  var removeIcon: SemanticShorthandItem<IconProps>?
+  var ribbon: dynamic /* Boolean | String /* "right" */ */
+  var size: SemanticSIZES?
+  var tag: Boolean?
 }
 
 external interface LabelComponent : RClass<LabelProps>

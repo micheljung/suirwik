@@ -9,16 +9,16 @@ import react.RProps
 import react.ReactElement
 
 external interface SegmentGroupProps : RProps {
-    var `as`: Any?
-    var children: ReactElement?
-    var className: String?
-    var compact: Boolean?
-    var content: SemanticShorthandContent?
-    var horizontal: Boolean?
-    var piled: Boolean?
-    var raised: Boolean?
-    var size: SegmentSizeProp?
-    var stacked: Boolean?
+  var `as`: Any?
+  var children: ReactElement?
+  var className: String?
+  var compact: Boolean?
+  var content: SemanticShorthandContent?
+  var horizontal: Boolean?
+  var piled: Boolean?
+  var raised: Boolean?
+  var size: SegmentSizeProp?
+  var stacked: Boolean?
 }
 
 @JsName("default")

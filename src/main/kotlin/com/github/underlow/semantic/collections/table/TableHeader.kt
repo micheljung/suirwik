@@ -7,11 +7,11 @@ import react.RProps
 import react.ReactElement
 
 external interface TableHeaderProps : RProps {
-    var `as`: Any?
-    var children: ReactElement?
-    var className: String?
-    var content: ReactElement?
-    var fullWidth: Boolean?
+  var `as`: Any?
+  var children: ReactElement?
+  var className: String?
+  var content: ReactElement?
+  var fullWidth: Boolean?
 }
 
 @JsName("default")

@@ -8,18 +8,18 @@ import react.RClass
 import react.RProps
 
 external interface PaginationProps : RProps {
-    var defaultActivePage: Int? /* String | Number */
-    var activePage: Int? /* String | Number */
-    var boundaryRange: Int? /* String | Number */
-    var ellipsisItem: SemanticShorthandItem<PaginationItemProps>?
-    var firstItem: SemanticShorthandItem<PaginationItemProps>?
-    var lastItem: SemanticShorthandItem<PaginationItemProps>?
-    var nextItem: SemanticShorthandItem<PaginationItemProps>?
-    var pageItem: SemanticShorthandItem<PaginationItemProps>?
-    var prevItem: SemanticShorthandItem<PaginationItemProps>?
-    var onPageChange: ((event: Event, data: PaginationProps) -> Unit)?
-    var siblingRange: Int? /* String | Number */
-    var totalPages: Int? /* String | Number */
+  var defaultActivePage: Int? /* String | Number */
+  var activePage: Int? /* String | Number */
+  var boundaryRange: Int? /* String | Number */
+  var ellipsisItem: SemanticShorthandItem<PaginationItemProps>?
+  var firstItem: SemanticShorthandItem<PaginationItemProps>?
+  var lastItem: SemanticShorthandItem<PaginationItemProps>?
+  var nextItem: SemanticShorthandItem<PaginationItemProps>?
+  var pageItem: SemanticShorthandItem<PaginationItemProps>?
+  var prevItem: SemanticShorthandItem<PaginationItemProps>?
+  var onPageChange: ((event: Event, data: PaginationProps) -> Unit)?
+  var siblingRange: Int? /* String | Number */
+  var totalPages: Int? /* String | Number */
 }
 
 @JsName("default")

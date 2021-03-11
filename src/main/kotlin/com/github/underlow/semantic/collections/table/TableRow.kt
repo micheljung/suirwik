@@ -8,19 +8,19 @@ import react.RProps
 import react.ReactElement
 
 external interface TableRowProps : RProps {
-    var `as`: Any?
-    var active: Boolean?
-    var cellAs: Any?
-    var cells: ReactElement? //  SemanticShorthandCollection<TableCellProps>?
-    var children: ReactElement?
-    var className: String?
-    var disabled: Boolean?
-    var error: Boolean?
-    var negative: Boolean?
-    var positive: Boolean?
-    var textAlign: String? /* "center" |"left" | "right" */
-    var verticalAlign: SemanticVERTICALALIGNMENTS?
-    var warning: Boolean?
+  var `as`: Any?
+  var active: Boolean?
+  var cellAs: Any?
+  var cells: ReactElement? //  SemanticShorthandCollection<TableCellProps>?
+  var children: ReactElement?
+  var className: String?
+  var disabled: Boolean?
+  var error: Boolean?
+  var negative: Boolean?
+  var positive: Boolean?
+  var textAlign: String? /* "center" |"left" | "right" */
+  var verticalAlign: SemanticVERTICALALIGNMENTS?
+  var warning: Boolean?
 }
 
 @JsName("default")
