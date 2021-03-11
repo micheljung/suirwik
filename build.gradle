@@ -24,8 +24,8 @@ plugins {
 apply plugin: "kotlin2js"
 apply plugin: "com.moowork.node"
 
-
-version '0.0.4-SNAPSHOT'
+group 'com.github.micheljung.suirwik'
+version "$version"
 
 ext {
   kotlinx_html_version = '0.6.11'

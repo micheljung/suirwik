@@ -18,7 +18,7 @@ jobs:
         run: ./gradlew build
 
       - name: Publish to GitHub Packages
-        run: ./gradlew publish
+        run: ./gradlew publish -Pversion=${{ github.ref }}
         env:
           USERNAME: ${{ github.actor }}
           TOKEN: ${{ secrets.GITHUB_TOKEN }}
