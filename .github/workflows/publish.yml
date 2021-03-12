@@ -20,7 +20,7 @@ jobs:
       - name: Build with Gradle
         run: ./gradlew build
 
-      - name: Publish to GitHub Packages
+      - name: Publish
         run: ./gradlew publish -Pversion=${{ env.RELEASE_VERSION }}
         env:
           BINTRAY_USER: ${{ secrets.BINTRAY_USER }}
