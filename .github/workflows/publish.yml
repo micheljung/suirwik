@@ -21,7 +21,7 @@ jobs:
         run: ./gradlew build
 
       - name: Publish
-        run: ./gradlew publish -Pversion=${{ env.RELEASE_VERSION }}
+        run: ./gradlew bintrayUpload -Pversion=${{ env.RELEASE_VERSION }}
         env:
           BINTRAY_USER: ${{ secrets.BINTRAY_USER }}
           BINTRAY_KEY: ${{ secrets.BINTRAY_KEY }}
