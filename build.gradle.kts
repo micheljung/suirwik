@@ -7,6 +7,7 @@ version = "$version"
 description = "Semantic UI React Wrapper written in Kotlin"
 
 plugins {
+  signing
   `maven-publish`
   id("com.jfrog.bintray") version "1.8.5"
   id("org.jetbrains.dokka") version "1.4.20"
@@ -74,7 +75,6 @@ kotlin {
   }
 }
 
-
 val publicationName = "kotlin"
 
 bintray {
@@ -138,4 +138,9 @@ publishing {
       }
     }
   }
+}
+
+signing {
+  useGpgCmd()
+  sign(publishing.publications[publicationName])
 }
