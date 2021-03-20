@@ -20,7 +20,13 @@ jobs:
       - name: Build with Gradle
         run: ./gradlew build
 
-      - name: Publish
+      - name: Publish to Maven Central
+        run: ./gradlew publish -Pversion=${{ env.RELEASE_VERSION }}
+        env:
+          OSSRH_USERNAME: ${{ secrets.OSSRH_USERNAME }}
+          OSSRH_TOKEN: ${{ secrets.OSSRH_TOKEN }}
+
+      - name: Publish to Bintray
         run: ./gradlew bintrayUpload -Pversion=${{ env.RELEASE_VERSION }}
         env:
           BINTRAY_USER: ${{ secrets.BINTRAY_USER }}
