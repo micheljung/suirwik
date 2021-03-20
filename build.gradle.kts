@@ -1,7 +1,7 @@
 import com.jfrog.bintray.gradle.BintrayExtension
 import org.jetbrains.dokka.gradle.DokkaTask
 
-group = "ch.micheljung.suirwik"
+group = "io.github.micheljung"
 version = "$version"
 description = "Semantic UI React Wrapper written in Kotlin"
 
