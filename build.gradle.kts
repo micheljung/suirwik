@@ -1,6 +1,5 @@
 import com.jfrog.bintray.gradle.BintrayExtension
 import org.jetbrains.dokka.gradle.DokkaTask
-import java.util.*
 
 group = "ch.micheljung.suirwik"
 version = "$version"
@@ -14,10 +13,6 @@ plugins {
   id("org.jetbrains.kotlin.js") version "1.4.20"
   id("com.github.node-gradle.node") version "3.0.1"
 }
-
-group = "ch.micheljung.suirwik"
-version = "$version"
-description = "Semantic UI React Wrapper written in Kotlin"
 
 repositories {
   maven("http://dl.bintray.com/kotlin/kotlin-js-wrappers")
