@@ -25,6 +25,9 @@ jobs:
           # The name of the environment variable, not its value
           gpg-passphrase: OSSRH_GPG_SECRET_KEY_PASSWORD
 
+      - name: List GPG Keys
+        run: gpg --list-secret-keys --keyid-format LONG
+
       - name: Store tag name as version
         run: echo "RELEASE_VERSION=${GITHUB_REF#refs/*/}" >> $GITHUB_ENV
 
